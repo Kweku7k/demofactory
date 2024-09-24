@@ -54,10 +54,31 @@ nav-link{
 }
  
 /* SKERMISHES */
+.floating-right-red-ellips {
+    position: absolute;
+    top: 0px; /* Adjust to your preference */
+    right: 50px; /* Adjust to your preference */
+    z-index: 10; /* Ensure it's above other elements */
+    height: 300px;
+    width: 300px;
+    background-color: #f44e3c;    
+    border-radius: 50%;
+    animation: float 5s ease-in-out infinite;
+  }
+
 .floating-image {
     position: absolute;
     top: 10px; /* Adjust to your preference */
     left: 50px; /* Adjust to your preference */
+    z-index: 10; /* Ensure it's above other elements */
+    animation: float 5s ease-in-out infinite;
+  }
+
+
+  .floating-right-square {
+    position: absolute;
+    top: 10px; /* Adjust to your preference */
+    right: 50px; /* Adjust to your preference */
     z-index: 10; /* Ensure it's above other elements */
     animation: float 5s ease-in-out infinite;
   }
@@ -79,7 +100,7 @@ nav-link{
     height: 500px;
     border-radius: 50%;
     background-color: #fce298;
-    opacity: 0.2;
+    /* opacity: 1; */
 }
   
 /* END SKERMISHES */
@@ -104,6 +125,15 @@ section{
 }
 
 
+.f-shape{
+    background-color: #fee8a8;
+    height: 120px;
+}
+
+.floating-right-square{
+    text-align: right;
+
+}
 
 /* MAIN SECTION */
 .pill-button{
