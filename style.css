@@ -30,6 +30,10 @@ body{
     font-family: 'BwGradual', sans-serif;
 }
 
+.logo{
+    width: 8vw;
+}
+
 footer{
     text-align: center;
     margin: 20px auto;
