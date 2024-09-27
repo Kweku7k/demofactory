@@ -30,6 +30,10 @@ body{
     font-family: 'BwGradual', sans-serif;
 }
 
+h1 {
+    font-size: 28px;
+}
+
 a{
     text-decoration: none;
 }
@@ -43,6 +47,7 @@ footer{
     margin: 30px auto;
     color: #f07167; 
 }
+
 
 .navbar{
     margin: 50px;
@@ -64,14 +69,16 @@ nav-link{
     background-color: #f44e3c;    
     border-radius: 50%;
     animation: float 5s ease-in-out infinite;
+    display: none;
   }
 
 .floating-image {
     position: absolute;
     top: 10px; /* Adjust to your preference */
     left: 50px; /* Adjust to your preference */
-    z-index: 10; /* Ensure it's above other elements */
+    z-index: -99; /* Ensure it's above other elements */
     animation: float 5s ease-in-out infinite;
+    display: none;
   }
 
 
@@ -79,8 +86,9 @@ nav-link{
     position: absolute;
     top: 10px; /* Adjust to your preference */
     right: 50px; /* Adjust to your preference */
-    z-index: 10; /* Ensure it's above other elements */
+    z-index: -99; /* Ensure it's above other elements */
     animation: float 5s ease-in-out infinite;
+    display: none;
   }
   
   @keyframes float {
@@ -240,19 +248,20 @@ section{
 
 .mission-vision{
     background-color: #f07167;
-    padding: 100px 100px;
+    padding: 10vw;
     border-radius: 50px;
     font-size: larger;
+    margin-bottom: 3vh;
 }
 
 .mission-vision-1{
     background-color: #f07167;
-    padding: 200px 100px;
+    padding: 10vw;
     border-radius: 50px;
     font-size: larger;
 }
 .mv-p{
-    font-size: 30px;
+    /* font-size: px; */
 }
 
 mv-p-support{
@@ -260,7 +269,7 @@ mv-p-support{
 }
 .mv-heading{
     font-family: 'BwGradualBlack', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
     
 }
 
@@ -270,3 +279,67 @@ mv-p-support{
 }
 
 /* END MISSION VISION */
+
+@media (min-width: 1281px) {
+    /* CSS */
+    .floating-right-red-ellips {
+        display: block;
+    }
+    .floating-image {
+        display: block;
+    }
+    .floating-right-square {
+        display: block;
+    }
+    .mission-vision {
+        padding: 5vw;
+    }
+    
+    }
+    /* 
+      ##Device = Laptops, Desktops
+      ##Screen = B/w 1025px to 1280px
+    */
+    @media (min-width: 1025px) and (max-width: 1280px) {
+    /* CSS */
+    }
+    /* 
+      ##Device = Tablets, Ipads (portrait)
+      ##Screen = B/w 768px to 1024px
+    */
+    @media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS */
+    }
+    /* 
+      ##Device = Tablets, Ipads (landscape)
+      ##Screen = B/w 768px to 1024px
+    */
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* CSS */
+    .highlight-text {
+        font-size: 50px;
+    }
+    }
+    /* 
+      ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px
+    */
+    @media (min-width: 481px) and (max-width: 767px) {
+    /* CSS */
+    .highlight-text {
+        font-size: 50px;
+    }
+    }
+    /* 
+      ##Device = Most of the Smartphones Mobiles (Portrait)
+      ##Screen = B/w 320px to 479px
+    */
+    @media (min-width: 320px) and (max-width: 480px) {
+    /* CSS */
+    section {
+        min-height: 30vh;
+    }
+    .highlight-text {
+        font-size: 50px;
+    }
+    }
