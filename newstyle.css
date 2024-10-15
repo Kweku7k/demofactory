@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+.logo {
+    width: 6vw;
+}
+
+.navbar{
+    margin: 50px;
+}
+
+.dfnavbar {
+    padding: 5px;
+    border-radius: 50px;
+    background: grey;
+}
+.nav-link-active {
+    background: black;
+    border-radius: 50px;
+}
+.nav-item {
+    padding: 20px;
+}
+
+.nav-link{
+    color: white;
+    font-weight: 100;
+}
+.pill-button{
+    padding: 16px 40px;
+    border-radius: 30px;
+    background-color: #f07167;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.hero {
+    margin: 15vh 0;
+}
+
+.hero-heading{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'BwGradual', sans-serif;
+    width: fit-content;
+    padding-bottom: -40px;
+    color: #fff;
+}
+
+.hero-subtext {
+    font-size: 25px;
+    font-weight: thin;
+    font-family: 'BwGradual', sans-serif;
+    color: #fff;
+}
