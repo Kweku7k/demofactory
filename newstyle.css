@@ -54,7 +54,7 @@ hr {
 
 .nav-item {
     color: white;
-    padding: 20px 28px;
+    padding: 15px 25px;
     margin: 0 5px;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -78,7 +78,9 @@ hr {
     background-color: #f07167;
     border: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 22px;
+    font-family: 'BwGradualMedium', sans-serif;
+
 }
 
 .hero {
@@ -103,6 +105,18 @@ hr {
 
 .ref-section {
     margin: 5vw;
+}
+
+.about-demo {
+    margin: 5vw 0;
+}
+
+.vision-demo {
+    margin: 5vw 0;
+}
+
+.event-demo {
+    margin: 5vw 0;
 }
 
 .ref1{
