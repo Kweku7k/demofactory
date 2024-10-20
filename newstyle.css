@@ -164,6 +164,14 @@ hr {
     width: 100%;
 } 
 
+.about-text h1 {
+    color: #fff;
+    margin: 3vh 0;
+    font-size: 90px;
+    font-weight: normal;
+    font-family: 'BwGradualBlack', sans-serif;
+}
+
 .about-text h2 {
     color: #f07168;
     margin: 3vh 0;
