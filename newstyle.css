@@ -192,6 +192,21 @@ hr {
     color: #fff;
 }
 
+.watch-text h2 {
+    color: #01afba;
+    margin: 3vh 0;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'BwGradualBold', sans-serif;
+}
+
+.watch-text p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: 'BwGradualMedium', sans-serif;
+}
+
 .why-section {
     margin: 5vw;
 }
