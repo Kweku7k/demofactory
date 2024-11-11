@@ -178,7 +178,7 @@ hr {
 
 .about-text h2 {
     color: #f07168;
-    margin: 3vh 0;
+    margin: 0;
     font-size: 40px;
     font-weight: normal;
     font-family: 'BwGradualBold', sans-serif;
@@ -223,8 +223,12 @@ hr {
 .why-card {
     border-radius: 10px;
     color: #fff;
-    padding: 7vh 3vw;
+    padding: 10px 10px 10px 10px;
+    /* padding: 7vh 1vw; */
     height: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .why-card h3 {
