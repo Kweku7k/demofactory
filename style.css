@@ -278,6 +278,12 @@ mv-p-support{
     font-weight: bold;
 }
 
+/* END LIGHT MODE */
+.overlay-text{
+    color: white;
+}
+
+
 /* END MISSION VISION */
 
 @media (min-width: 1281px) {
