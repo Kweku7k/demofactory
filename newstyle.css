@@ -277,4 +277,10 @@ hr {
 
 .footer-section {
     margin: 5vw 0;
+    color: #000 !important;
 }
+
+li, a{
+    color: #000;
+}
+
